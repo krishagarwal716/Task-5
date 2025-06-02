@@ -1,0 +1,93 @@
+#header{
+    height:60px;
+    background-color: rgb(235, 238, 75);
+    text-align: center;
+}
+
+#subheading{
+    text-align: center;
+}
+
+.bigcontainer{
+    height: 350px;
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+}
+
+.small1{
+    height: 300px;
+    width:  300px;
+    background-color: rgb(235, 189, 63);
+    font-weight: 900px;
+}
+
+.small2{
+    height: 300px;
+    width:  300px;
+    background-color: rgb(235, 189, 63);
+    font-weight: 900px;
+}
+
+.small3{
+    height: 300px;
+    width:  300px;
+    background-color: rgb(235, 189, 63);
+    font-weight: 900px;
+}
+
+.footer{
+    height:30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 300px) {
+    .small1{
+        background-color: blueviolet;
+    }
+    .small2{
+        background-color: blueviolet;
+    }
+    .small3{
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .small1{
+        background-color: red;
+    }
+    .small2{
+        background-color: red;
+    }
+    .small3{
+        background-color: red;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .small1{
+        background-color: green;
+    }
+    .small2{
+        background-color: green;
+    }
+    .small3{
+        background-color: green;
+    }
+}
+
+@media (min-width: 600px) {
+    .small1{
+        background-color: yellow;
+    }
+    .small2{
+        background-color: yellow;
+    }
+    .small3{
+        background-color: yellow;
+    }
+}
